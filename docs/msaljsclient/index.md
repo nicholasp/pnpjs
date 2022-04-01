@@ -13,7 +13,7 @@ import { spfi, SPBrowser } from "@pnp/sp";
 import { MSAL } from "@pnp/msaljsclient";
 import "@pnp/sp/webs";
 
-const configuation = {
+const configuration = {
     auth: {
         authority: "https://login.microsoftonline.com/common",
         clientId: "{client id}",
